@@ -76,7 +76,7 @@
     font-size: 0.8rem;
   }
   .toolbar{
-    min-width: 70vw;
+    min-width: 80vw;
   }
   .texto-info{
     font-size: 0.8rem;
