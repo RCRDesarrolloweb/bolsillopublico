@@ -4,7 +4,7 @@
       <q-toolbar class="text-grey bg-grey-1">
         <div class="toolbar">
           <q-img class="logo q-ma-lg" src="~assets/logo-bolsillo-publico.png" />
-          <q-btn class="toolbar-btn" label="Quienes Somos" to="Somos" flat>
+          <q-btn class="toolbar-btn" label="Quienes Somos" to="/" flat>
             <q-tooltip transition-show="flip-right" content-class="bg-primary texto-info" transition-hide="flip-left">
               Descubre quienes estan detras de este proyecto
             </q-tooltip>
@@ -46,6 +46,14 @@
 </template>
 
 <style type="scss">
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
+*{
+    font-family: 'Comfortaa', cursive;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
 .logo{
   max-width: 150px;
   max-height: 100px;
